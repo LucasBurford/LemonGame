@@ -25,6 +25,7 @@ public class PlayerAttacks : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
+            FindObjectOfType<AudioManager>().Play("SwordSwipe1");
             FindObjectOfType<Lightsaber>().colliderActive = true;
             attackAnimation.Play();
             StartCoroutine(WaitToTurnOffCollider());

@@ -129,6 +129,8 @@ public class Lightsaber : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Sliceable") || other.gameObject.CompareTag("Enemy"))
         {
+            FindObjectOfType<AudioManager>().Play("SwordImpact");
+            FindObjectOfType<AudioManager>().Play("FruitSlice1");
             _triggerEnterTipPosition = _tip.transform.position;
             _triggerEnterBasePosition = _base.transform.position;
         }
