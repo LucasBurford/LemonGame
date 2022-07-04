@@ -69,6 +69,10 @@ public class PlayerController : MonoBehaviour
             Quaternion desiredRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
             transform.rotation = Quaternion.Slerp(transform.rotation, desiredRotation, _rotationSpeed * Time.deltaTime);
         }
+        else
+        {
+            transform.rotation = Quaternion.Euler(transform.rotation.x, _followCamera.transform.eulerAngles.y, transform.rotation.z);
+        }
 
         if (isAiming)
         {

@@ -47,6 +47,10 @@ public class Lightsaber : MonoBehaviour
     private Vector3 _triggerEnterBasePosition;
     private Vector3 _triggerExitTipPosition;
 
+    public Collider _collider;
+
+    public bool colliderActive;
+
     void Start()
     {
         //Init mesh and triangles
@@ -65,6 +69,8 @@ public class Lightsaber : MonoBehaviour
         _vertices = new Vector3[_trailFrameLength * NUM_VERTICES];
         _triangles = new int[_vertices.Length];
 
+        _collider = GetComponentInChildren<Collider>();
+
         //Set starting position for tip and base
         _previousTipPosition = _tip.transform.position;
         _previousBasePosition = _base.transform.position;
@@ -77,6 +83,8 @@ public class Lightsaber : MonoBehaviour
         {
             _frameCount = 0;
         }
+
+        _collider.enabled = colliderActive;
 
         //Draw first triangle vertices for back and front
         _vertices[_frameCount] = _base.transform.position;
@@ -119,7 +127,7 @@ public class Lightsaber : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Sliceable"))
+        if (other.gameObject.CompareTag("Sliceable") || other.gameObject.CompareTag("Enemy"))
         {
             _triggerEnterTipPosition = _tip.transform.position;
             _triggerEnterBasePosition = _base.transform.position;
@@ -128,7 +136,7 @@ public class Lightsaber : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Sliceable"))
+        if (other.gameObject.CompareTag("Sliceable") || other.gameObject.CompareTag("Enemy"))
         {
             _triggerExitTipPosition = _tip.transform.position;
 
