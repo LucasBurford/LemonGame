@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CameraInteraction : MonoBehaviour
 {
     public Image crossHair;
+    public TMP_Text interactText;
     public Color defaultColour;
     public Color enemyColour;
     public Color interactColour;
@@ -38,6 +40,7 @@ public class CameraInteraction : MonoBehaviour
         else
         {
             crossHair.color = defaultColour;
+            interactText.gameObject.SetActive(false);
         }
     }
 
@@ -64,7 +67,14 @@ public class CameraInteraction : MonoBehaviour
                 break;
             case "Lever":
                 {
+                    interactText.gameObject.SetActive(true);
+                    interactText.text = "E: Pull Lever?";
 
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        go.SendMessageUpwards("OnInteract");
+                        interactText.gameObject.SetActive(false);
+                    }
                 }
                 break;
         }
