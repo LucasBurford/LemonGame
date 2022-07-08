@@ -62,6 +62,11 @@ public class CameraInteraction : MonoBehaviour
                     }
                 }
                 break;
+            case "Lever":
+                {
+
+                }
+                break;
         }
     }
 }
