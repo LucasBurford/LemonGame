@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 101
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -462,33 +462,6 @@ MonoBehaviour:
     warnings: 0
     errors: 0
     success: 0
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -560,22 +533,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Unity/Packages
+    - Assets/Unity/Packages/Mega Fantasy Props Pack/Prefabs/Miscellaneous
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Unity/Packages
+  - Assets/Unity/Packages/Mega Fantasy Props Pack/Prefabs/Miscellaneous
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucas\Desktop\Stuff\Projects\LemonGame\LemonGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 167.79999}
-    m_SelectedIDs: a4760000
-    m_LastClickedID: 30372
-    m_ExpandedIDs: 00000000a0760000a2760000a4760000a6760000a876000014770000307700003c770000e67f0000e87f0000fa7f0000ae1101004a310100128301007cca0100
+    scrollPos: {x: 0, y: 895}
+    m_SelectedIDs: 0e810000
+    m_LastClickedID: 33038
+    m_ExpandedIDs: 00000000fc800000fe80000000810000028100000481000006810000088100000a8100000c8100000e81000010810000128100008e8100000afb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,7 +576,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0760000a2760000a4760000a6760000a8760000
+    m_ExpandedIDs: 00000000fc800000fe80000000810000028100000481000006810000088100000a8100000c8100000e8100001081000012810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -647,7 +620,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -655,7 +628,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 158.79999}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -732,26 +705,26 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a4760000
+      scrollPos: {x: 0, y: 144.40002}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5875fbff50a3feffc2acfeff36fbffff96690000086e0000aa6e0000
+      m_ExpandedIDs: 566bfcff9c68ffff36fbffff426a0000586a000050700000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: box.002
+        m_OriginalName: box.002
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -261274
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -826,7 +799,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -985,9 +958,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 138.95763, y: 1.8873701, z: 32.709423}
+    m_Target: {x: 152.71384, y: -1.8581223, z: 39.504112}
     speed: 2
-    m_Value: {x: 138.95763, y: 1.8873701, z: 32.709423}
+    m_Value: {x: 152.71384, y: -1.8581223, z: 39.504112}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1034,13 +1007,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.31260026, y: -0.10122099, z: 0.033506345, w: 0.94389534}
+    m_Target: {x: -0.3884522, y: 0.08634948, z: -0.03658035, w: -0.91670096}
     speed: 2
-    m_Value: {x: 0.30692738, y: -0.10141891, z: 0.032897968, w: 0.9457419}
+    m_Value: {x: -0.38209763, y: 0.10584464, z: -0.0440942, w: -0.9169809}
   m_Size:
-    m_Target: 2.834678
+    m_Target: 16.681389
     speed: 2
-    m_Value: 2.834678
+    m_Value: 16.681389
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1117,8 +1090,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -417.44003
     m_HBaseRangeMax: 417.44003
-    m_VBaseRangeMin: -191.84
-    m_VBaseRangeMax: 191.84
+    m_VBaseRangeMin: -200.23999
+    m_VBaseRangeMax: 200.23999
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1135,11 +1108,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1043.6001
-      height: 479.59998
+      height: 500.59998
     m_Scale: {x: 1.2476516, y: 1.2476516}
-    m_Translation: {x: 521.80005, y: 239.79999}
+    m_Translation: {x: 521.80005, y: 250.29999}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1147,9 +1120,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -418.22577
-      y: -192.20108
+      y: -200.6169
       width: 836.45154
-      height: 384.40216
+      height: 401.2338
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1304.5001, y: 625.75}
