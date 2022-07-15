@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 100
+  controlID: 106
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 251.19995
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 263.2
     height: 521.6
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 101
+  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 102
+  controlID: 93
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -462,33 +462,6 @@ MonoBehaviour:
     warnings: 0
     errors: 0
     success: 0
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -560,22 +533,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Unity/Packages/Mini Alchemy/Prefabs
+    - Assets/Unity/Packages/Mega Fantasy Props Pack/Prefabs/Houses
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Unity/Packages/Mini Alchemy/Prefabs
+  - Assets/Unity/Packages/Mega Fantasy Props Pack/Prefabs/Houses
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucas\Desktop\Stuff\Projects\LemonGame\LemonGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 999.8}
-    m_SelectedIDs: f4fb0400
-    m_LastClickedID: 326644
-    m_ExpandedIDs: 000000000a8900000c8900000e89000010890000128900001489000016890000188900001a8900001c8900001e89000020890000f8fb0400
+    scrollPos: {x: 0, y: 743.8}
+    m_SelectedIDs: d48b0000
+    m_LastClickedID: 35796
+    m_ExpandedIDs: 00000000728b0000748b0000768b0000788b00007a8b00007c8b00007e8b0000808b0000828b0000848b0000868b0000888b0000be8b0000c08b0000008c000088bc0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,7 +576,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a8900000c8900000e89000010890000128900001489000016890000188900001a8900001c8900001e89000020890000
+    m_ExpandedIDs: 00000000728b0000748b0000768b0000788b00007a8b00007c8b00007e8b0000808b0000828b0000848b0000868b0000888b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -732,10 +705,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 304}
-      m_SelectedIDs: 0e31faff
-      m_LastClickedID: -380658
-      m_ExpandedIDs: 662cfdff6ac2ffff38fbffff1a670000c0670000226800006a680000ce6a0000946b0000086c00001e6c0000166e0000bc6f00005a710000ac71000018750000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 6ae2fcff
+      m_LastClickedID: -204182
+      m_ExpandedIDs: b0fefcffb0b2fdff38fbfffff0760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -985,9 +958,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 92.85814, y: 4.5188794, z: 128.87003}
+    m_Target: {x: -496.97433, y: -16.975357, z: -7.315399}
     speed: 2
-    m_Value: {x: 92.85814, y: 4.5188794, z: 128.87003}
+    m_Value: {x: -496.97433, y: -16.975357, z: -7.315399}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1034,13 +1007,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2114508, y: -0.047494825, z: 0.0103043495, w: 0.97620225}
+    m_Target: {x: -0.044584934, y: 0.9163347, z: -0.38344356, w: -0.106566966}
     speed: 2
-    m_Value: {x: 0.21144614, y: -0.04749378, z: 0.010304122, w: 0.97618073}
+    m_Value: {x: -0.046883784, y: 0.91565937, z: -0.383161, w: -0.112060644}
   m_Size:
-    m_Target: 0.182624
+    m_Target: 47.489708
     speed: 2
-    m_Value: 0.182624
+    m_Value: 45.4447
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1181,7 +1154,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 595.2
-    width: 1293.4
+    width: 1283.8
     height: 188.20001
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
