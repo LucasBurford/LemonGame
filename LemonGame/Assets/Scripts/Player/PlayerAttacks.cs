@@ -37,4 +37,12 @@ public class PlayerAttacks : MonoBehaviour
         yield return new WaitForSeconds(attackResetTime);
         FindObjectOfType<Lightsaber>().colliderActive = false;
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.name == "TrappedApple")
+        {
+            FindObjectOfType<TrappedApple>().Interaction();
+        }
+    }
 }
