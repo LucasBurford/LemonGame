@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 114
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 251.19995
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 241.6
     height: 536.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 18
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 19
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 1043.2001
     height: 536.8
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -281,7 +281,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 4
+  m_LastSelected: 3
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -491,120 +491,6 @@ MonoBehaviour:
     warnings: 0
     errors: 0
     success: 0
-  - isEnabled: 1
-    isActive: 1
-    isLoading: 0
-    isInitialized: 1
-    items:
-    - isActive: 1
-      message: GrassD_mt1 material was not upgraded. There's no upgrader to convert
-        Unlit/Texture shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Glow_particles material was not upgraded. There's no upgrader to convert
-        Legacy Shaders/Particles/Additive shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Decal material was not upgraded. There's no upgrader to convert Shader
-        Graphs/Decal shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Tree1_mt1 material was not upgraded. There's no upgrader to convert
-        Unlit/Texture shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Water_mat_01 material was not upgraded. There's no upgrader to convert
-        Shader Graphs/WaterShader shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Stars_particles material was not upgraded. There's no upgrader to
-        convert Legacy Shaders/Particles/Additive shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: SpriteMask-Default material was not upgraded. There's no upgrader
-        to convert Universal Render Pipeline/2D/Sprite-Mask shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: SpatialMappingOcclusion material was not upgraded. There's no upgrader
-        to convert Universal Render Pipeline/VR/SpatialMapping/Occlusion shader to
-        selected pipeline
-      status: 2
-    - isActive: 1
-      message: ChairA_mt1 material was not upgraded. There's no upgrader to convert
-        Unlit/Texture shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Material.001 material was not upgraded. There's no upgrader to convert
-        Unlit/Texture shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Dust_particles material was not upgraded. There's no upgrader to convert
-        Legacy Shaders/Particles/Additive shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Water_mat_02 material was not upgraded. There's no upgrader to convert
-        Shader Graphs/WaterShader shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: LiberationSans SDF - Drop Shadow material was not upgraded. There's
-        no upgrader to convert TextMeshPro/Mobile/Distance Field shader to selected
-        pipeline
-      status: 2
-    - isActive: 1
-      message: SpatialMappingWireframe material was not upgraded. There's no upgrader
-        to convert Universal Render Pipeline/VR/SpatialMapping/Wireframe shader to
-        selected pipeline
-      status: 2
-    - isActive: 1
-      message: 
-      status: 3
-    - isActive: 1
-      message: Water_mat_03 material was not upgraded. There's no upgrader to convert
-        Shader Graphs/WaterShader shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: LiberationSans SDF - Outline material was not upgraded. There's no
-        upgrader to convert TextMeshPro/Mobile/Distance Field shader to selected
-        pipeline
-      status: 2
-    - isActive: 1
-      message: Skybox material was not upgraded. There's no upgrader to convert Skybox/Procedural
-        shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Tree1_mt2 material was not upgraded. There's no upgrader to convert
-        Unlit/Transparent Cutout shader to selected pipeline
-      status: 2
-    - isActive: 1
-      message: Sprite-Unlit-Default material was not upgraded. There's no upgrader
-        to convert Universal Render Pipeline/2D/Sprite-Unlit-Default shader to selected
-        pipeline
-      status: 2
-    - isActive: 1
-      message: 
-      status: 3
-    pending: 0
-    warnings: 0
-    errors: 19
-    success: 2
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
-  - isEnabled: 1
-    isActive: 0
-    isLoading: 0
-    isInitialized: 0
-    items: []
-    pending: 0
-    warnings: 0
-    errors: 0
-    success: 0
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -676,22 +562,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Unity/Packages/Low_Poly_Mini_Village/Prefabs
+    - Assets/Unity/Packages/Crystal_Mine/SplineTool
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Unity/Packages/Low_Poly_Mini_Village/Prefabs
+  - Assets/Unity/Packages/Crystal_Mine/SplineTool
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucas\Desktop\Stuff\Projects\LemonGame\LemonGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1207}
-    m_SelectedIDs: 78f30600
-    m_LastClickedID: 455544
-    m_ExpandedIDs: 00000000fad20000fcd20000fed2000000d3000002d3000004d3000006d3000008d300000ad300000cd300000ed3000010d30000aed30000d4d30000e2d3000006c5050008c5050064a606007ef30600
+    scrollPos: {x: 0, y: 759}
+    m_SelectedIDs: c88b0200
+    m_LastClickedID: 166856
+    m_ExpandedIDs: 00000000eef10000f0f10000f2f10000f4f10000f6f10000f8f10000faf10000fcf10000fef1000000f2000002f2000004f2000020f2000058f20000c2430100c08b0200c88b0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,7 +605,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fad20000fcd20000fed2000000d3000002d3000004d3000006d3000008d300000ad300000cd300000ed3000010d30000
+    m_ExpandedIDs: 00000000eef10000f0f10000f2f10000f4f10000f6f10000f8f10000faf10000fcf10000fef1000000f2000002f2000004f20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -763,7 +649,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -811,7 +697,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 207.20001
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -849,9 +735,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba0ee8ff
-      m_LastClickedID: -1569094
-      m_ExpandedIDs: 7270e8ffc883e8ff2acee8ff8013eaff9421eaff38fbffff6e670000b4700000f08c0000dc98000080ad0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6660e9ffce62e9ff38fbffff108300002c85000078b40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -942,7 +828,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -1092,7 +978,7 @@ MonoBehaviour:
       index: 10
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -1101,9 +987,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 614.0985, y: -27.120125, z: 182.40988}
+    m_Target: {x: 76.361916, y: 22.262838, z: 316.85666}
     speed: 2
-    m_Value: {x: 614.0985, y: -27.120125, z: 182.40988}
+    m_Value: {x: 76.361916, y: 22.262838, z: 316.85666}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1150,20 +1036,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20256445, y: -0.78611034, z: 0.48178774, w: -0.3301196}
+    m_Target: {x: -0.20488478, y: 0.7885774, z: -0.34718534, w: -0.46448123}
     speed: 2
-    m_Value: {x: -0.19796209, y: -0.7899709, z: 0.4809014, w: -0.32479355}
+    m_Value: {x: -0.21108872, y: 0.78004557, z: -0.34342206, w: -0.47857267}
   m_Size:
-    m_Target: 27.413609
+    m_Target: 5.879726
     speed: 2
-    m_Value: 27.413609
+    m_Value: 5.879726
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.3003497
-    m_SpeedNormalized: 0.64999986
+    m_Speed: 1.3603196
+    m_SpeedNormalized: 0.6799998
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1255,7 +1141,7 @@ MonoBehaviour:
       width: 1041.2001
       height: 494.8
     m_Scale: {x: 1.2476516, y: 1.2476516}
-    m_Translation: {x: 520.60004, y: 247.40001}
+    m_Translation: {x: 520.60004, y: 247.40002}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1263,7 +1149,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -417.26395
-      y: -198.29254
+      y: -198.29256
       width: 834.5279
       height: 396.58508
     m_MinimalGUI: 1
