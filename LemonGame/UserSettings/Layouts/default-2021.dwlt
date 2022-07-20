@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 120
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 74
+  controlID: 18
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 75
+  controlID: 19
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -281,7 +281,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 4
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -491,6 +491,135 @@ MonoBehaviour:
     warnings: 0
     errors: 0
     success: 0
+  - isEnabled: 1
+    isActive: 1
+    isLoading: 0
+    isInitialized: 1
+    items:
+    - isActive: 1
+      message: GrassD_mt1 material was not upgraded. There's no upgrader to convert
+        Unlit/Texture shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Glow_particles material was not upgraded. There's no upgrader to convert
+        Legacy Shaders/Particles/Additive shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Decal material was not upgraded. There's no upgrader to convert Shader
+        Graphs/Decal shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Tree1_mt1 material was not upgraded. There's no upgrader to convert
+        Unlit/Texture shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Water_mat_01 material was not upgraded. There's no upgrader to convert
+        Shader Graphs/WaterShader shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Stars_particles material was not upgraded. There's no upgrader to
+        convert Legacy Shaders/Particles/Additive shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: SpriteMask-Default material was not upgraded. There's no upgrader
+        to convert Universal Render Pipeline/2D/Sprite-Mask shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Sky1 material was not upgraded. There's no upgrader to convert Skybox/Procedural
+        shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: SpatialMappingOcclusion material was not upgraded. There's no upgrader
+        to convert Universal Render Pipeline/VR/SpatialMapping/Occlusion shader to
+        selected pipeline
+      status: 2
+    - isActive: 1
+      message: ChairA_mt1 material was not upgraded. There's no upgrader to convert
+        Unlit/Texture shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Material.001 material was not upgraded. There's no upgrader to convert
+        Unlit/Texture shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Dust_particles material was not upgraded. There's no upgrader to convert
+        Legacy Shaders/Particles/Additive shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Sky3 material was not upgraded. There's no upgrader to convert Skybox/Procedural
+        shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Water_mat_02 material was not upgraded. There's no upgrader to convert
+        Shader Graphs/WaterShader shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: LiberationSans SDF - Drop Shadow material was not upgraded. There's
+        no upgrader to convert TextMeshPro/Mobile/Distance Field shader to selected
+        pipeline
+      status: 2
+    - isActive: 1
+      message: 
+      status: 3
+    - isActive: 1
+      message: SpatialMappingWireframe material was not upgraded. There's no upgrader
+        to convert Universal Render Pipeline/VR/SpatialMapping/Wireframe shader to
+        selected pipeline
+      status: 2
+    - isActive: 1
+      message: 
+      status: 3
+    - isActive: 1
+      message: Water_mat_03 material was not upgraded. There's no upgrader to convert
+        Shader Graphs/WaterShader shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: LiberationSans SDF - Outline material was not upgraded. There's no
+        upgrader to convert TextMeshPro/Mobile/Distance Field shader to selected
+        pipeline
+      status: 2
+    - isActive: 1
+      message: Skybox material was not upgraded. There's no upgrader to convert Skybox/Procedural
+        shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Sky2 material was not upgraded. There's no upgrader to convert Skybox/Procedural
+        shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Tree1_mt2 material was not upgraded. There's no upgrader to convert
+        Unlit/Transparent Cutout shader to selected pipeline
+      status: 2
+    - isActive: 1
+      message: Sprite-Unlit-Default material was not upgraded. There's no upgrader
+        to convert Universal Render Pipeline/2D/Sprite-Unlit-Default shader to selected
+        pipeline
+      status: 2
+    - isActive: 1
+      message: 
+      status: 3
+    pending: 0
+    warnings: 0
+    errors: 22
+    success: 3
+  - isEnabled: 1
+    isActive: 0
+    isLoading: 0
+    isInitialized: 0
+    items: []
+    pending: 0
+    warnings: 0
+    errors: 0
+    success: 0
+  - isEnabled: 1
+    isActive: 0
+    isLoading: 0
+    isInitialized: 0
+    items: []
+    pending: 0
+    warnings: 0
+    errors: 0
+    success: 0
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -562,22 +691,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/FishingHut
+    - Assets/Alstra Infinite/Boats LowPoly/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/FishingHut
+  - Assets/Alstra Infinite/Boats LowPoly/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucas\Desktop\Stuff\Projects\LemonGame\LemonGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 87}
-    m_SelectedIDs: f8f90000
-    m_LastClickedID: 63992
-    m_ExpandedIDs: 000000004af900004cf900004ef9000050f9000052f9000054f9000056f9000058f900005af900005cf900005ef9000060f900006af90000f8f90000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: aeb50100
+    m_LastClickedID: 112046
+    m_ExpandedIDs: 000000009cf900009ef90000a0f90000a2f90000a4f90000a6f90000a8f90000aaf90000acf90000aef90000b0f90000b2f90000bcf9000080b50100b2b50100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -605,7 +734,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004af900004cf900004ef9000050f9000052f9000054f9000056f9000058f900005af900005cf900005ef9000060f90000
+    m_ExpandedIDs: 000000009cf900009ef90000a0f90000a2f90000a4f90000a6f90000a8f90000aaf90000acf90000aef90000b0f90000b2f90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -735,9 +864,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 22ae0000
-      m_LastClickedID: 44578
-      m_ExpandedIDs: 18b2ebffb4b5ebff38fbffffe86e00000e780000fc8000006ab70000
+      m_SelectedIDs: fab0ebff
+      m_LastClickedID: -1330950
+      m_ExpandedIDs: 26fcebffb4fcebff38fbffff2a670000b0750000f07a0000b2b70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -987,9 +1116,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -456.72995, y: -30.241846, z: 89.030174}
+    m_Target: {x: -446.4199, y: -92.6311, z: 50.84352}
     speed: 2
-    m_Value: {x: -456.72995, y: -30.241846, z: 89.030174}
+    m_Value: {x: -446.4199, y: -92.6311, z: 50.84352}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1036,13 +1165,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.011840119, y: -0.78673804, z: 0.6170683, w: -0.015570506}
+    m_Target: {x: -0.4065821, y: 0.11317318, z: -0.050537378, w: -0.90523}
     speed: 2
-    m_Value: {x: -0.015480495, y: -0.7884335, z: 0.6145889, w: -0.020336008}
+    m_Value: {x: -0.3988258, y: 0.10543343, z: -0.04592627, w: -0.9097872}
   m_Size:
-    m_Target: 128.78215
+    m_Target: 71.86381
     speed: 2
-    m_Value: 113.464455
+    m_Value: 71.86381
   m_Ortho:
     m_Target: 0
     speed: 2
